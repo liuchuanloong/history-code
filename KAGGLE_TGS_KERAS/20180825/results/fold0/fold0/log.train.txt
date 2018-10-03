@@ -1,0 +1,204 @@
+
+--- [START 2018-08-23_18-54-57] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+
+--- [START 2018-08-23_18-55-34] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+
+--- [START 2018-08-23_18-55-57] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+
+--- [START 2018-08-23_18-56-37] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+
+--- [START 2018-08-23_18-57-12] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+
+--- [START 2018-08-23_18-57-49] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+** net setting **
+<class 'model.SaltNet'>
+
+** start training here! **
+ rate    iter   epoch   | valid_loss               | train_loss               | batch_loss               |  time          
+-------------------------------------------------------------------------------------------------------------------------------
+0.0000    0.0     0.0  |  0.178  0.235  (0.123) |  0.000  0.000  |  0.000  0.000  |  0 hr 00 min 
+0.0100    0.1     0.9  |  0.394  0.642  (0.106) |  0.006  0.999  |  0.004  0.999  |  0 hr 00 min 
+
+--- [START 2018-08-23_18-59-10] ----------------------------------------------------------------
+
+	SEED         = 35202
+	PROJECT_PATH = /root/share/project/kaggle/tgs/build/dummy-05
+	__file__     = /root/share/project/kaggle/tgs/build/dummy-05/unet_5_scale_aug0/train.py
+	out_dir      = /root/share/project/kaggle/tgs/results/unet-5-scale-more-aug/fold0
+
+	<additional comments> ...  
+	  - 5-scale unet  
+	  - more augmentation 
+
+** dataset setting **
+batch_size = 32
+train_dataset.split = list_train0_3600
+valid_dataset.split = list_valid0_400
+
+** net setting **
+<class 'model.SaltNet'>
+
+** start training here! **
+ rate    iter   epoch   | valid_loss               | train_loss               | batch_loss               |  time          
+-------------------------------------------------------------------------------------------------------------------------------
+0.0000    0.0     0.0  |  0.178  0.235  (0.123) |  0.000  0.000  |  0.000  0.000  |  0 hr 00 min 
+0.0100    0.1     0.9  |  0.089  0.863  (0.437) |  0.098  0.849  |  0.094  0.851  |  0 hr 00 min 
+0.0100    0.2     1.8  |  0.065  0.911  (0.576) |  0.073  0.896  |  0.079  0.868  |  0 hr 01 min 
+0.0100    0.3     2.7  |  0.070  0.907  (0.459) |  0.068  0.902  |  0.042  0.961  |  0 hr 01 min 
+0.0100    0.4     3.6  |  0.055  0.917  (0.646) |  0.058  0.919  |  0.038  0.965  |  0 hr 02 min 
+0.0100    0.5     4.4  |  0.050  0.927  (0.634) |  0.056  0.917  |  0.044  0.942  |  0 hr 02 min 
+0.0100    0.6     5.3  |  0.048  0.929  (0.664) |  0.055  0.915  |  0.080  0.868  |  0 hr 03 min 
+0.0100    0.7     6.2  |  0.048  0.930  (0.683) |  0.049  0.925  |  0.064  0.928  |  0 hr 03 min 
+0.0100    0.8     7.1  |  0.054  0.926  (0.653) |  0.056  0.919  |  0.043  0.951  |  0 hr 04 min 
+0.0100    0.9     8.0  |  0.047  0.934  (0.689) |  0.053  0.922  |  0.049  0.927  |  0 hr 04 min 
+0.0100    1.0     8.9  |  0.043  0.938  (0.722) |  0.056  0.916  |  0.032  0.955  |  0 hr 05 min 
+0.0100    1.1     9.8  |  0.059  0.912  (0.475) |  0.051  0.926  |  0.043  0.921  |  0 hr 05 min 
+0.0100    1.2    10.7  |  0.048  0.937  (0.670) |  0.045  0.930  |  0.034  0.962  |  0 hr 06 min 
+0.0100    1.3    11.6  |  0.053  0.932  (0.691) |  0.044  0.938  |  0.042  0.922  |  0 hr 06 min 
+0.0100    1.4    12.4  |  0.044  0.935  (0.711) |  0.043  0.942  |  0.041  0.942  |  0 hr 07 min 
+0.0100    1.5    13.3  |  0.042  0.936  (0.712) |  0.041  0.945  |  0.032  0.961  |  0 hr 07 min 
+0.0100    1.6    14.2  |  0.041  0.940  (0.716) |  0.033  0.952  |  0.019  0.986  |  0 hr 08 min 
+0.0100    1.7    15.1  |  0.045  0.944  (0.745) |  0.030  0.935  |  0.034  0.933  |  0 hr 08 min 
+0.0100    1.8    16.0  |  0.038  0.945  (0.744) |  0.040  0.942  |  0.025  0.974  |  0 hr 09 min 
+0.0100    1.9    16.9  |  0.038  0.945  (0.743) |  0.038  0.941  |  0.034  0.941  |  0 hr 09 min 
+0.0100    2.0    17.8  |  0.037  0.946  (0.729) |  0.032  0.955  |  0.029  0.953  |  0 hr 10 min 
+0.0100    2.1    18.7  |  0.036  0.947  (0.738) |  0.036  0.950  |  0.053  0.923  |  0 hr 10 min 
+0.0100    2.2    19.6  |  0.042  0.940  (0.676) |  0.034  0.950  |  0.023  0.966  |  0 hr 11 min 
+0.0100    2.3    20.4  |  0.039  0.946  (0.748) |  0.036  0.946  |  0.052  0.922  |  0 hr 11 min 
+0.0100    2.4    21.3  |  0.040  0.941  (0.749) |  0.029  0.960  |  0.047  0.928  |  0 hr 12 min 
+0.0100    2.5    22.2  |  0.035  0.945  (0.745) |  0.030  0.957  |  0.041  0.953  |  0 hr 13 min 
+0.0100    2.6    23.1  |  0.039  0.947  (0.753) |  0.036  0.944  |  0.025  0.968  |  0 hr 13 min 
+0.0100    2.7    24.0  |  0.035  0.948  (0.750) |  0.031  0.952  |  0.030  0.970  |  0 hr 14 min 
+0.0100    2.8    24.9  |  0.041  0.949  (0.755) |  0.038  0.948  |  0.030  0.968  |  0 hr 14 min 
+0.0100    2.9    25.8  |  0.034  0.954  (0.765) |  0.033  0.952  |  0.048  0.921  |  0 hr 15 min 
+0.0100    3.0    26.7  |  0.034  0.954  (0.775) |  0.037  0.948  |  0.046  0.906  |  0 hr 15 min 
+0.0100    3.1    27.6  |  0.037  0.945  (0.756) |  0.032  0.958  |  0.034  0.937  |  0 hr 16 min 
+0.0100    3.2    28.4  |  0.033  0.952  (0.761) |  0.028  0.956  |  0.032  0.940  |  0 hr 16 min 
+0.0100    3.3    29.3  |  0.031  0.954  (0.774) |  0.030  0.959  |  0.074  0.875  |  0 hr 17 min 
+0.0100    3.4    30.2  |  0.033  0.956  (0.776) |  0.031  0.953  |  0.016  0.978  |  0 hr 17 min 
+0.0100    3.5    31.1  |  0.032  0.955  (0.781) |  0.022  0.966  |  0.030  0.942  |  0 hr 18 min 
+0.0100    3.6    32.0  |  0.040  0.942  (0.725) |  0.031  0.957  |  0.021  0.971  |  0 hr 18 min 
+0.0100    3.7    32.9  |  0.034  0.955  (0.766) |  0.027  0.959  |  0.016  0.967  |  0 hr 19 min 
+0.0100    3.8    33.8  |  0.033  0.953  (0.766) |  0.026  0.960  |  0.029  0.960  |  0 hr 19 min 
+0.0100    3.9    34.7  |  0.034  0.954  (0.760) |  0.026  0.958  |  0.042  0.934  |  0 hr 20 min 
+0.0100    4.0    35.6  |  0.038  0.951  (0.748) |  0.029  0.958  |  0.046  0.936  |  0 hr 20 min 
+0.0100    4.1    36.4  |  0.032  0.959  (0.781) |  0.028  0.957  |  0.014  0.983  |  0 hr 21 min 
+0.0100    4.2    37.3  |  0.040  0.951  (0.746) |  0.021  0.968  |  0.041  0.958  |  0 hr 22 min 
+0.0100    4.3    38.2  |  0.034  0.951  (0.757) |  0.025  0.963  |  0.027  0.955  |  0 hr 22 min 
+0.0100    4.4    39.1  |  0.031  0.958  (0.784) |  0.031  0.957  |  0.012  0.990  |  0 hr 23 min 
+0.0100    4.5    40.0  |  0.037  0.952  (0.782) |  0.024  0.969  |  0.016  0.976  |  0 hr 23 min 
+0.0100    4.6    40.9  |  0.044  0.954  (0.763) |  0.022  0.971  |  0.017  0.975  |  0 hr 24 min 
+0.0100    4.7    41.8  |  0.034  0.951  (0.758) |  0.023  0.968  |  0.043  0.948  |  0 hr 24 min 
+0.0100    4.8    42.7  |  0.056  0.933  (0.708) |  0.025  0.962  |  0.029  0.947  |  0 hr 25 min 
+0.0100    4.9    43.6  |  0.045  0.948  (0.739) |  0.025  0.965  |  0.021  0.969  |  0 hr 25 min 
+0.0100    5.0    44.4  |  0.042  0.949  (0.743) |  0.025  0.962  |  0.019  0.975  |  0 hr 26 min 
+0.0100    5.1    45.3  |  0.037  0.956  (0.784) |  0.023  0.969  |  0.030  0.950  |  0 hr 26 min 
+0.0100    5.2    46.2  |  0.036  0.955  (0.792) |  0.025  0.968  |  0.039  0.934  |  0 hr 27 min 
+0.0100    5.3    47.1  |  0.036  0.956  (0.765) |  0.019  0.971  |  0.012  0.986  |  0 hr 27 min 
+0.0100    5.4    48.0  |  0.035  0.956  (0.788) |  0.020  0.967  |  0.022  0.966  |  0 hr 28 min 
+0.0100    5.5    48.9  |  0.044  0.951  (0.766) |  0.022  0.967  |  0.015  0.978  |  0 hr 28 min 
+0.0100    5.6    49.8  |  0.042  0.954  (0.779) |  0.019  0.974  |  0.011  0.985  |  0 hr 29 min 
+0.0100    5.7    50.7  |  0.035  0.959  (0.784) |  0.019  0.975  |  0.018  0.969  |  0 hr 30 min 
+0.0100    5.8    51.6  |  0.036  0.961  (0.790) |  0.018  0.975  |  0.014  0.978  |  0 hr 30 min 
+0.0100    5.9    52.4  |  0.040  0.952  (0.754) |  0.019  0.974  |  0.024  0.960  |  0 hr 31 min 
+0.0100    6.0    53.3  |  0.049  0.944  (0.749) |  0.018  0.974  |  0.021  0.975  |  0 hr 31 min 
+0.0100    6.1    54.2  |  0.039  0.949  (0.758) |  0.019  0.975  |  0.039  0.952  |  0 hr 32 min 
+0.0100    6.2    55.1  |  0.041  0.956  (0.773) |  0.017  0.974  |  0.016  0.977  |  0 hr 32 min 
+0.0100    6.3    56.0  |  0.033  0.954  (0.789) |  0.018  0.975  |  0.013  0.981  |  0 hr 33 min 
+0.0100    6.4    56.9  |  0.037  0.950  (0.753) |  0.017  0.976  |  0.012  0.982  |  0 hr 33 min 
+0.0100    6.5    57.8  |  0.034  0.957  (0.790) |  0.019  0.975  |  0.028  0.958  |  0 hr 34 min 
+0.0100    6.6    58.7  |  0.036  0.956  (0.769) |  0.019  0.972  |  0.021  0.957  |  0 hr 34 min 
+0.0100    6.7    59.6  |  0.040  0.952  (0.778) |  0.021  0.969  |  0.012  0.987  |  0 hr 35 min 
+0.0100    6.8    60.4  |  0.032  0.960  (0.773) |  0.024  0.966  |  0.010  0.989  |  0 hr 35 min 
+0.0100    6.9    61.3  |  0.034  0.957  (0.773) |  0.017  0.973  |  0.013  0.983  |  0 hr 36 min 
+0.0100    7.0    62.2  |  0.036  0.955  (0.771) |  0.018  0.974  |  0.013  0.975  |  0 hr 36 min 
